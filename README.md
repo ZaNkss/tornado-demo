@@ -1,2 +1,19 @@
 # tornado-demo
 tornado的项目模版，自用
+- app
+  - config(dir)：存放一些app的配置，不存放私密配置信息
+  - handler(dir)：存放一些请求处理的handler
+  - model(dir)：存放一些数据模型，对应数据库
+  - util(dir)：存放一些通用的方法
+  - application.py：app的设置和一些全局参数
+  - url.py：配置路由
+- config(dir)：存放一些私密配置信息
+- log(dir)：存放日志文件
+- static(dir)：存放静态文件
+  - css
+  - js
+  - resource
+- template(dir)：存放模版
+- test(dir)：用于单元测试
+- venv：虚拟环境
+- server.py：程序入口，做初始化以及app的实例化
